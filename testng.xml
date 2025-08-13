@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="eBay Test Suite" parallel="false" thread-count="1">
+    <test name="eBay Home Page Tests">
+        <classes>
+            <class name="tests.HomePageTest" />
+            <class name="tests.LoginLogoutTest" />
+            <class name="tests.RegistrationPageTest" />
+            <class name="tests.SearchProductPageTest" />
+            <class name="tests.PurchasingandSellingTest" />
+        </classes>
+    </test>
+</suite>

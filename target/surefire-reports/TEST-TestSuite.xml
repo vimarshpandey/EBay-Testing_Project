@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="86.136" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="/Users/vimarsh/.cache/selenium/chromedriver/mac-arm64/138.0.7204.168/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vimarsh/Documents/Selenium/EBay-Testing_Project/target/test-classes:/Users/vimarsh/Documents/Selenium/EBay-Testing_Project/target/classes:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-java/4.34.0/selenium-java-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-api/4.34.0/selenium-api-4.34.0.jar:/Users/vimarsh/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.34.0/selenium-chrome-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.34.0/selenium-chromium-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-json/4.34.0/selenium-json-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.34.0/selenium-manager-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.34.0/selenium-devtools-v136-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.34.0/selenium-devtools-v137-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.34.0/selenium-devtools-v138-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.34.0/selenium-edge-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.34.0/selenium-firefox-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-http/4.34.0/selenium-http-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.34.0/selenium-ie-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.34.0/selenium-remote-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/vimarsh/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/vimarsh/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vimarsh/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/vimarsh/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-api/1.51.0/opentelemetry-api-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-context/1.51.0/opentelemetry-context-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.51.0/opentelemetry-exporter-logging-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.51.0/opentelemetry-sdk-common-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.51.0/opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.51.0/opentelemetry-sdk-extension-autoconfigure-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.51.0/opentelemetry-sdk-trace-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.51.0/opentelemetry-sdk-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.51.0/opentelemetry-sdk-metrics-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.51.0/opentelemetry-sdk-logs-1.51.0.jar:/Users/vimarsh/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-os/4.34.0/selenium-os-4.34.0.jar:/Users/vimarsh/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.34.0/selenium-safari-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-support/4.34.0/selenium-support-4.34.0.jar:/Users/vimarsh/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/vimarsh/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/vimarsh/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/vimarsh/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/vimarsh/.m2/repository/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/vimarsh/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/vimarsh/.m2/repository/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/vimarsh/.m2/repository/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/vimarsh/.m2/repository/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/vimarsh/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/vimarsh/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/vimarsh/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/vimarsh/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/vimarsh/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/vimarsh/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/vimarsh/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/vimarsh/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/vimarsh/.m2/repository/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/vimarsh/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/vimarsh/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/vimarsh/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/vimarsh/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/vimarsh/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/vimarsh/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/vimarsh/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/vimarsh/.m2/repository/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar:/Users/vimarsh/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Users/vimarsh/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.8.v20250724-1412/jre/lib"/>
+    <property name="sun.java.command" value="/Users/vimarsh/Documents/Selenium/EBay-Testing_Project/target/surefire/surefirebooter-20250729221827515_3.jar /Users/vimarsh/Documents/Selenium/EBay-Testing_Project/target/surefire 2025-07-29T22-18-27_472-jvmRun1 surefire-20250729221827515_1tmp surefire_0-20250729221827515_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/vimarsh/Documents/Selenium/EBay-Testing_Project/target/test-classes:/Users/vimarsh/Documents/Selenium/EBay-Testing_Project/target/classes:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-java/4.34.0/selenium-java-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-api/4.34.0/selenium-api-4.34.0.jar:/Users/vimarsh/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.34.0/selenium-chrome-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.34.0/selenium-chromium-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-json/4.34.0/selenium-json-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.34.0/selenium-manager-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.34.0/selenium-devtools-v136-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v137/4.34.0/selenium-devtools-v137-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v138/4.34.0/selenium-devtools-v138-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.34.0/selenium-edge-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.34.0/selenium-firefox-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-http/4.34.0/selenium-http-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.34.0/selenium-ie-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.34.0/selenium-remote-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/vimarsh/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/vimarsh/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vimarsh/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/vimarsh/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-api/1.51.0/opentelemetry-api-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-context/1.51.0/opentelemetry-context-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.51.0/opentelemetry-exporter-logging-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.51.0/opentelemetry-sdk-common-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.51.0/opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.51.0/opentelemetry-sdk-extension-autoconfigure-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.51.0/opentelemetry-sdk-trace-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.51.0/opentelemetry-sdk-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.51.0/opentelemetry-sdk-metrics-1.51.0.jar:/Users/vimarsh/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.51.0/opentelemetry-sdk-logs-1.51.0.jar:/Users/vimarsh/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-os/4.34.0/selenium-os-4.34.0.jar:/Users/vimarsh/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.34.0/selenium-safari-driver-4.34.0.jar:/Users/vimarsh/.m2/repository/org/seleniumhq/selenium/selenium-support/4.34.0/selenium-support-4.34.0.jar:/Users/vimarsh/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/vimarsh/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/vimarsh/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/vimarsh/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/vimarsh/.m2/repository/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/vimarsh/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/vimarsh/.m2/repository/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/vimarsh/.m2/repository/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/vimarsh/.m2/repository/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/vimarsh/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/vimarsh/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/vimarsh/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/vimarsh/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/vimarsh/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/vimarsh/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/vimarsh/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/vimarsh/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/vimarsh/.m2/repository/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/vimarsh/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/vimarsh/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/vimarsh/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/vimarsh/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/vimarsh/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/vimarsh/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/vimarsh/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/vimarsh/.m2/repository/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar:/Users/vimarsh/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vimarsh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/Users/vimarsh/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_21.0.8.v20250724-1412/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/vimarsh/Documents/Selenium/EBay-Testing_Project"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/vimarsh/Documents/Selenium/EBay-Testing_Project/target/surefire/surefirebooter-20250729221827515_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.8+9-LTS"/>
+    <property name="user.name" value="vimarsh"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.8+9"/>
+    <property name="localRepository" value="/Users/vimarsh/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/px/8x33rspn1z557qs8npr07qvw0000gn/T/"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="/Users/vimarsh/Documents/Selenium/EBay-Testing_Project"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/vimarsh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.8+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testLogoPresence" classname="tests.HomePageTest" time="2.044">
+    <system-out><![CDATA[✅ Logo is present on homepage.
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 138.0.7204.168 (resolved driver for Chrome 138)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vimarsh/.cache/selenium/chromedriver/mac-arm64/138.0.7204.168/chromedriver
+]]></system-err>
+  </testcase>
+  <testcase name="testSearchBarPresence" classname="tests.HomePageTest" time="2.025">
+    <system-out><![CDATA[✅ Search bar is visible.
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 138.0.7204.168 (resolved driver for Chrome 138)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vimarsh/.cache/selenium/chromedriver/mac-arm64/138.0.7204.168/chromedriver
+]]></system-err>
+  </testcase>
+  <testcase name="testCategoryDropdown" classname="tests.HomePageTest" time="2.029">
+    <system-out><![CDATA[✅ Category dropdown is visible.
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 138.0.7204.168 (resolved driver for Chrome 138)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vimarsh/.cache/selenium/chromedriver/mac-arm64/138.0.7204.168/chromedriver
+]]></system-err>
+  </testcase>
+  <testcase name="testNavigationLinks" classname="tests.HomePageTest" time="2.107">
+    <system-out><![CDATA[✅ Top navigation links are visible.
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 138.0.7204.168 (resolved driver for Chrome 138)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vimarsh/.cache/selenium/chromedriver/mac-arm64/138.0.7204.168/chromedriver
+]]></system-err>
+  </testcase>
+  <testcase name="testSearchFunctionalityUI" classname="tests.HomePageTest" time="7.211">
+    <system-out><![CDATA[📸 Screenshot saved: ./screenshots/testSearchFunctionalityUI_1753807758175.png
+✅ Search functionality UI test passed.
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 138.0.7204.168 (resolved driver for Chrome 138)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vimarsh/.cache/selenium/chromedriver/mac-arm64/138.0.7204.168/chromedriver
+]]></system-err>
+  </testcase>
+  <testcase name="tesrBrowseByCategory" classname="tests.HomePageTest" time="3.155">
+    <system-out><![CDATA[New Electronics
+Collectibles
+Parts & Accessories
+Fashion
+Health & Beauty
+Home & Garden
+Refurbished
+✅ Browse By Categories is present on home page.
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 138.0.7204.168 (resolved driver for Chrome 138)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vimarsh/.cache/selenium/chromedriver/mac-arm64/138.0.7204.168/chromedriver
+]]></system-err>
+  </testcase>
+  <testcase name="tesrDiscoverRareFinds" classname="tests.HomePageTest" time="4.115">
+    <system-out><![CDATA[Sports Memorabilia
+Sports Trading Cards
+Collectible Card Games
+Funko
+Comics
+Action Figures
+Antiques
+✅ Discover rare finds is present on home page.
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 138.0.7204.168 (resolved driver for Chrome 138)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vimarsh/.cache/selenium/chromedriver/mac-arm64/138.0.7204.168/chromedriver
+]]></system-err>
+  </testcase>
+  <testcase name="tesrBestSellingBrands" classname="tests.HomePageTest" time="5.13">
+    <system-out><![CDATA[Apple
+Dyson
+Samsung
+Nintendo
+PlayStation
+Lego
+Pokémon
+✅ Best-selling brands on eBay is present on home page.
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 138.0.7204.168 (resolved driver for Chrome 138)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vimarsh/.cache/selenium/chromedriver/mac-arm64/138.0.7204.168/chromedriver
+]]></system-err>
+  </testcase>
+  <testcase name="testFooterLinks" classname="tests.HomePageTest" time="4.748">
+    <system-out><![CDATA[🔗 Total footer links found: 69
+Text: Buy | URL: https://www.ebay.com/n/all-categories
+Text: Registration | URL: https://www.ebay.com/help/account/default/ebay-account?id=4188
+Text: Bidding & buying help | URL: https://www.ebay.com/help/buying
+Text: Stores | URL: https://www.ebay.com/b/Stores-HUB/bn_7004224522
+Text: Creator Collections | URL: https://storefronts.ebay.com/
+Text: eBay for Charity | URL: https://www.charity.ebay.com/
+Text: Charity Shop | URL: https://www.ebay.com/b/Charity/bn_7114598164
+Text: Seasonal Sales and events | URL: https://www.ebay.com/b/Sales-Events/bn_7115049177
+Text: eBay Gift Cards | URL: https://www.ebay.com/giftcards
+Text: Sell | URL: https://www.ebay.com/sl/sell
+Text: Start selling | URL: https://www.ebay.com/sl/sell
+Text: How to sell | URL: https://pages.ebay.com/seller-center/get-started/selling-basics.html?utm_source=gf-learn-to-sell&utm_medium=onsite
+Text: Business sellers | URL: https://pages.ebay.com/seller-center/listing-and-marketing/seller-hub.html
+Text: Affiliates | URL: https://ambassador.ebay.com/
+Text: Developers | URL: https://developer.ebay.com/
+Text: Security center | URL: https://pages.ebay.com/securitycenter/index.html
+Text: Site map | URL: https://pages.ebay.com/sitemap.html
+Text: TCGplayer | URL: https://www.tcgplayer.com/
+Text: Facebook | URL: https://www.facebook.com/ebay/
+Text: X (Twitter) | URL: https://twitter.com/eBay
+Text: About eBay | URL: https://www.ebayinc.com/
+Text: Company info | URL: https://www.ebayinc.com/company/
+Text: News | URL: https://www.ebayinc.com/stories/news/
+Text: Deferred Prosecution Agreement with District of Massachusetts | URL: https://www.ebayinc.com/stories/press-room/#assets-settlements
+Text: Investors | URL: https://investors.ebayinc.com/overview/default.aspx
+Text: Careers | URL: https://careers.ebayinc.com/
+Text: Diversity & Inclusion | URL: https://www.ebayinc.com/company/diversity-equity-inclusion/
+Text: Global Impact | URL: https://www.ebayinc.com/impact/
+Text: Government relations | URL: https://www.ebaymainstreet.com/
+Text: Advertise with us | URL: https://www.ebayads.com/
+Text: Policies | URL: https://www.ebay.com/help/policies/default/ebays-rules-policies?id=4205
+Text: Verified Rights Owner (VeRO) Program | URL: https://pages.ebay.com/seller-center/listing-and-marketing/verified-rights-owner-program.html#what-is-the-vero-program
+Text: eCI Licenses | URL: https://pages.ebay.com/ebayCommerce/mtl.html
+Text: Help & Contact | URL: https://www.ebay.com/help/home
+Text: Seller Center | URL: https://pages.ebay.com/seller-center/index.html?utm_source=gf&utm_medium=onsite
+Text: Contact Us | URL: https://www.ebay.com/help/home
+Text: eBay Returns | URL: https://pages.ebay.com/returns/
+Text: eBay Money Back Guarantee | URL: https://pages.ebay.com/ebay-money-back-guarantee/
+Text: Community | URL: https://community.ebay.com/
+Text: Announcements | URL: https://community.ebay.com/t5/Announcements/bg-p/Announcements
+Text: eBay Community | URL: https://community.ebay.com/
+Text: eBay for Business Podcast | URL: https://community.ebay.com/t5/Podcasts/ct-p/Podcasts
+Text:  | URL: https://www.ebayinc.com/
+Text:  | URL: https://community.ebay.com/t5/Announcements/bg-p/Announcements
+Text:  | URL: https://community.ebay.com/
+Text:  | URL: https://pages.ebay.com/securitycenter/index.html
+Text:  | URL: https://www.ebay.com/sellercenter
+Text:  | URL: https://www.ebay.com/help/policies/default/ebays-rules-policies?id=4205
+Text:  | URL: https://partnernetwork.ebay.com/
+Text:  | URL: https://www.ebay.com/help/home
+Text:  | URL: https://pages.ebay.com/sitemap.html
+Text: Accessibility | URL: https://www.ebayinc.com/accessibility/
+Text: User Agreement | URL: https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259
+Text: Privacy | URL: https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+Text: Consumer Health Data | URL: https://www.ebayinc.com/company/privacy-center/privacy-notice/consumer-health-data-privacy-policy/
+Text: Payments Terms of Use | URL: https://pages.ebay.com/payment/2.0/terms.html
+Text: Cookies | URL: https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+Text: CA Privacy Notice | URL: https://www.ebayinc.com/company/privacy-center/privacy-notice/state-privacy-disclosures/#california
+Text: Your Privacy Choices | URL: https://www.ebay.com/adchoice/ccpa
+Text: AdChoice | URL: https://www.ebay.com/adchoice
+Text:  | URL: https://www.ebayinc.com/accessibility/
+Text:  | URL: https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259
+Text:  | URL: https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+Text:  | URL: https://www.ebayinc.com/company/privacy-center/privacy-notice/consumer-health-data-privacy-policy/
+Text:  | URL: https://pages.ebay.com/payment/2.0/terms.html
+Text:  | URL: https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+Text:  | URL: https://www.ebayinc.com/company/privacy-center/privacy-notice/state-privacy-disclosures/#california
+Text:  | URL: https://www.ebay.com/adchoice/ccpa
+Text:  | URL: https://www.ebay.com/adchoice
+📸 Screenshot saved: ./screenshots/FooterLinks_1753807793667.png
+✅ All footer links verified successfully.
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 138.0.7204.168 (resolved driver for Chrome 138)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/vimarsh/.cache/selenium/chromedriver/mac-arm64/138.0.7204.168/chromedriver
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-29T22:18:27 IST" name="Surefire suite" finished-at="2025-07-29T22:19:53 IST" duration-ms="85917">
+    <groups>
+    </groups>
+    <test started-at="2025-07-29T22:18:27 IST" name="Surefire test" finished-at="2025-07-29T22:19:53 IST" duration-ms="85917">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:18:27 IST" name="setup" finished-at="2025-07-29T22:18:33 IST" duration-ms="5634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogoPresence()[pri:1, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:18:33 IST" name="testLogoPresence" finished-at="2025-07-29T22:18:35 IST" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoPresence -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:18:35 IST" name="teardown" finished-at="2025-07-29T22:18:35 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:18:35 IST" name="setup" finished-at="2025-07-29T22:18:46 IST" duration-ms="10578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchBarPresence()[pri:2, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:18:46 IST" name="testSearchBarPresence" finished-at="2025-07-29T22:18:48 IST" duration-ms="2026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBarPresence -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:18:48 IST" name="teardown" finished-at="2025-07-29T22:18:48 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:18:48 IST" name="setup" finished-at="2025-07-29T22:18:51 IST" duration-ms="2973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCategoryDropdown()[pri:3, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:18:51 IST" name="testCategoryDropdown" finished-at="2025-07-29T22:18:53 IST" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategoryDropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:18:53 IST" name="teardown" finished-at="2025-07-29T22:18:53 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:18:53 IST" name="setup" finished-at="2025-07-29T22:19:04 IST" duration-ms="10892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationLinks()[pri:4, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:04 IST" name="testNavigationLinks" finished-at="2025-07-29T22:19:06 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationLinks -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:06 IST" name="teardown" finished-at="2025-07-29T22:19:06 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:06 IST" name="setup" finished-at="2025-07-29T22:19:10 IST" duration-ms="4396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchFunctionalityUI()[pri:5, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:10 IST" name="testSearchFunctionalityUI" finished-at="2025-07-29T22:19:18 IST" duration-ms="7211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionalityUI -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:18 IST" name="teardown" finished-at="2025-07-29T22:19:18 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:18 IST" name="setup" finished-at="2025-07-29T22:19:22 IST" duration-ms="3826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tesrBrowseByCategory()[pri:6, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:22 IST" name="tesrBrowseByCategory" finished-at="2025-07-29T22:19:25 IST" duration-ms="3155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrBrowseByCategory -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:25 IST" name="teardown" finished-at="2025-07-29T22:19:25 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:25 IST" name="setup" finished-at="2025-07-29T22:19:30 IST" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tesrDiscoverRareFinds()[pri:7, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:30 IST" name="tesrDiscoverRareFinds" finished-at="2025-07-29T22:19:34 IST" duration-ms="4115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDiscoverRareFinds -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:34 IST" name="teardown" finished-at="2025-07-29T22:19:34 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:34 IST" name="setup" finished-at="2025-07-29T22:19:39 IST" duration-ms="4651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tesrBestSellingBrands()[pri:8, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:39 IST" name="tesrBestSellingBrands" finished-at="2025-07-29T22:19:44 IST" duration-ms="5130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrBestSellingBrands -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:44 IST" name="teardown" finished-at="2025-07-29T22:19:44 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:44 IST" name="setup" finished-at="2025-07-29T22:19:48 IST" duration-ms="4424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFooterLinks()[pri:9, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:48 IST" name="testFooterLinks" finished-at="2025-07-29T22:19:53 IST" duration-ms="4749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFooterLinks -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@3901d134]" started-at="2025-07-29T22:19:53 IST" name="teardown" finished-at="2025-07-29T22:19:53 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.HomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

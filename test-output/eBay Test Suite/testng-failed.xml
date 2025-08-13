@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [eBay Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="eBay Home Page Tests(failed)">
+    <classes>
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="testSearchFunctionalityUI"/>
+          <include name="testLogoPresence"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+    </classes>
+  </test> <!-- eBay Home Page Tests(failed) -->
+</suite> <!-- Failed suite [eBay Test Suite] -->
