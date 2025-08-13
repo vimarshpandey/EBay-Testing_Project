@@ -234,7 +234,7 @@ public class LoginLogoutTest extends BaseTest {
 		  usernameSubmitButton.click();
 		  
 		  WebElement password = driver.findElement(By.id("pass"));
-		  password.sendKeys("REDtiles22001");
+		  password.sendKeys("");  //enter password
 		  
 		  WebElement passwordSubmitButton = driver.findElement(By.id("sgnBt"));
 		  passwordSubmitButton.click();
